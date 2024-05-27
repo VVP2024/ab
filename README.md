@@ -2,4 +2,4 @@
 ## Virsraksts
 Dinamiskā klāde  
 Aizpildisana  
-test
+test  
