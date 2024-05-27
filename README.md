@@ -2,3 +2,4 @@
 ## Virsraksts
 Dinamiskā klāde  
 Aizpildisana
+t
