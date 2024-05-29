@@ -20,7 +20,7 @@ var x = 10;
     console.log("y mainigais pirms:" +y)
 
     { 
-       //console.log("y mainigais pirms:" +y)
+       //console.log("y mainigais pirms:" +y) 
     //y = 200;
     //console.log("y mainigais ieks un pec:" +y)
     let y = 100;
