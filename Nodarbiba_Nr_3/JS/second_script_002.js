@@ -59,3 +59,12 @@ var x = 10;
 //const x = 777;
 //const y = 888;
 //const k = 999;
+
+
+let text = "Test TEXT "
+
+document.getElementById("demo").innerHTML = text;
+
+text = "TEXT "
+
+document.getElementById("demo").innerHTML = text;
