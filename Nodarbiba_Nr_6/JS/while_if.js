@@ -22,14 +22,14 @@ console.log("j = "+j);
    j = j + 0.5; 
 }
 
+//if (i==7) {continue};
 
-      //if (i==7) {continue};
-
-  //if (i==7) {break};
+//if (i==7) {break};
 
   console.log("j = "+j);
-  console.log("i = "+i);
-  console.log(i < 10);
+//console.log("i = "+i);
+  console.log(j < 5);
+//console.log(i < 10);
 console.log("text = "+text);
 
 
