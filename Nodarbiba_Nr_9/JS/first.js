@@ -25,7 +25,7 @@ Window.close ('http://127.0.0.1:9222/Nodarbiba_Nr_8/index.html');
 
 let jsWindow = window.open(
     //"https://rtu.lv",
-    "http://127.0.0.1:9222/Nodarbiba_Nr_08/index.html",
+    "http://127.0.0.1:9222/Nodarbiba_Nr_8/index.html",
     //"RTU",
     "NR08",
     'height=600,width=800');
@@ -37,3 +37,7 @@ setTimeout(() => {
 setTimeout(() => {
     jsWindow.close();
 }, 6000);
+
+setTimeout(() => {
+    jsWindow.moveTo(500, 500);
+}, 5000);
