@@ -46,6 +46,7 @@ setTimeout(() => {
     jsWindow.moveTo(500, 500);
 }, 5000);
 */
+/*
 let result_c = confirm('Vai dzēst izvēlēto saturu?');
 let message_c = result_c ? 'Jūs teicāt - jā' : 'Jūs teicāt - nē';
 alert(message_c);
@@ -55,3 +56,22 @@ let message_p = result_p ? 'Šobrīd ir '+result_p+'. gads' : '???. gads';
 alert(message_p);
 
 console.log(result_p * result_p);
+
+
+let lang = prompt('What is your favorite programming language?');
+
+let feedback = lang.toLowerCase() === 'javascript' ? `It's great!` :
+    `It's ${lang}`;
+
+alert(feedback);
+*/
+
+var timeoutID;
+
+function showAlert() {
+    timeoutID = setTimeout(alert, 3000, 'setTimeout Demo!');
+}
+
+function clearAlert() {
+    clearTimeout(timeoutID);
+}
