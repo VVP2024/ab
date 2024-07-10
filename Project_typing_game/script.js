@@ -61,7 +61,12 @@ const timeInterval = setInterval(updateTime, 1000);
 
 // Generate random word from array
 function getRandomWord() {
-  return words[Math.floor(Math.random() * words.length)];
+  time = 0;
+  let number = Math.random();
+  console.log (number);
+  console.log (number * words.length);
+  console.log (Math.floor(number * words.length));
+  return words[Math.floor(number * words.length)];
 }
 
 // Add word to DOM
